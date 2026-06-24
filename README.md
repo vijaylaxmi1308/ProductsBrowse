@@ -8,7 +8,8 @@ This project is a backend application built using FastAPI to browse a large prod
 
 * FastAPI
 * SQLAlchemy
-* SQLite
+* PostgreSQL (Neon)
+* Render
 * Faker
 
 ## Features
@@ -95,7 +96,6 @@ Cursor pagination is used instead of offset pagination because it prevents dupli
 
 ## Future Improvements
 
-* PostgreSQL instead of SQLite
 * Composite cursor using (created_at, id)
 * Automated testing
 * Improved error handling
