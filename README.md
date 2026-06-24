@@ -19,6 +19,30 @@ This project is a backend application built using FastAPI to browse a large prod
 * Cursor-based pagination
 * Generated dataset of approximately 200,000 products
 
+## Database Schema
+
+### Product Table
+
+| Column     | Type                  |
+| ---------- | --------------------- |
+| id         | Integer (Primary Key) |
+| name       | String                |
+| category   | String                |
+| price      | Float                 |
+| created_at | DateTime              |
+| updated_at | DateTime              |
+
+### Sample Record
+
+{
+"id": 1,
+"name": "Wireless Mouse",
+"category": "Electronics",
+"price": 799.99,
+"created_at": "2026-06-23T17:12:57.411399",
+"updated_at": "2026-06-23T17:12:57.411399"
+}
+
 ## Running the Project
 
 Install dependencies:
@@ -39,7 +63,7 @@ http://127.0.0.1:8000/docs
 
 GET /products
 
-Returns the first 20 products sorted by newest first.
+After Executing it Returns the first 20 products sorted by newest first.
 
 ### Filter by Category
 
