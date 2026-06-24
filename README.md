@@ -55,7 +55,7 @@ uvicorn main:app --reload
 
 Open:
 
-https://products-browse.onrender.com/docs
+http://127.0.0.1:8000/docs
 
 ## API Endpoints
 
@@ -63,7 +63,7 @@ https://products-browse.onrender.com/docs
 
 GET /products
 
-Returns the first 20 products sorted by newest first.
+After Executing it Returns the first 20 products sorted by newest first.
 
 ### Filter by Category
 
