@@ -9,6 +9,7 @@ This project is a backend application built using FastAPI to browse a large prod
 * FastAPI
 * SQLAlchemy
 * PostgreSQL (Neon)
+* SQLite
 * Render
 * Faker
 
